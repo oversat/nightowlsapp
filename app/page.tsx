@@ -104,7 +104,7 @@ export default function Home() {
   const downloadImage = () => {
     if (!canvasRef.current) return;
     const link = document.createElement("a");
-    link.download = `${name}-owl-profile.jpg`;
+    link.download = `${name}night-owl-profile.jpg`;
     link.href = canvasRef.current.toDataURL("image/jpeg");
     link.click();
   };
